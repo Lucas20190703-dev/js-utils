@@ -9,7 +9,7 @@
   "description": "Utilities for QHSense JS projects",
   "devDependencies": {
     "babel-eslint": "8.0.3",
-    "eslint": "4.12.1",
+    "eslint": "6.8.0",
     "eslint-config-qhsense": "file:../eslint-config-qhsense",
     "eslint-plugin-flowtype": "2.39.1",
     "eslint-plugin-import": "2.8.0",
