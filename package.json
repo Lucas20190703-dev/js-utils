@@ -1,0 +1,40 @@
+{
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "bowser": "1.9.1",
+    "js-md5": "0.7.3"
+  },
+  "deprecated": false,
+  "description": "Utilities for QHSense JS projects",
+  "devDependencies": {
+    "babel-eslint": "8.0.3",
+    "eslint": "4.12.1",
+    "eslint-config-qhsense": "file:../eslint-config-qhsense",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "2.8.0",
+    "flow-bin": "0.57.3",
+    "precommit-hook": "3.0.0"
+  },
+  "keywords": [
+    "browser",
+    "qhsense",
+    "utils"
+  ],
+  "license": "Apache-2.0",
+  "main": "./index.js",
+  "name": "js-utils",
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lucas20190703/js-utils.git"
+  },
+  "scripts": {
+    "lint": "eslint . && flow",
+    "validate": "npm ls"
+  },
+  "version": "0.0.0"
+}
